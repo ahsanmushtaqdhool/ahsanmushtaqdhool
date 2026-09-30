@@ -1,57 +1,70 @@
 # GitHub Portfolio Strategy
 
-> A practical framework for presenting cybersecurity, DevSecOps, cloud, and software engineering work with credible evidence.
+> Recruiter-focused organization for cybersecurity, DevSecOps, cloud, and software engineering work.
 
-## Portfolio Objective
+## Recommended Pin Order
 
-The profile should show one coherent engineering identity: a cybersecurity analyst who understands how software and cloud systems are built, operated, and secured. Every pinned repository should demonstrate a distinct capability, a real engineering decision, and verifiable output.
+| Order | Repository | Recruiter signal | Recommended short description |
+|---:|---|---|---|
+| 1 | [Production-Grade GitOps Microservices Demo](https://github.com/ahsanmushtaqdhool/Production-Grade_GitOps-Driven_Microservices-Demo) | Strongest cloud-native and platform architecture depth | Adapted AWS EKS GitOps lab using Terraform, Argo CD, Helm, GitHub Actions, Trivy, Gateway API, and observability. |
+| 2 | [Netflix DevSecOps Project](https://github.com/ahsanmushtaqdhool/DevSecOps-Project-netflix) | End-to-end secure delivery and operations | Netflix-style application delivery on AWS with CI/CD, container security, monitoring, and GitOps workflows. |
+| 3 | [Student–Teacher Three-Tier Application](https://github.com/ahsanmushtaqdhool/Student-Teacher-Portal-Three-Tier-Application) | Full-stack architecture and application engineering | Three-tier student and teacher portal demonstrating clear separation across UI, application, and data layers. |
+| 4 | [Docker Angular Sample](https://github.com/ahsanmushtaqdhool/docker-angular-sample) | Containerization and deployment discipline | Production-oriented Docker setup for reproducible, secure, and efficient Angular application delivery. |
+| 5 | [Python Application Platform Sample](https://github.com/ahsanmushtaqdhool/sample-python) | Python packaging and cloud deployment fundamentals | Lightweight Python deployment template for demonstrating application packaging and platform delivery. |
+| 6 | **Reserve for an original security project** | Original authorship and target-role evidence | Build a SOC investigation, Python security automation, or AWS security lab with reproducible evidence. |
 
-## Pinned Repository Framework
+All five current project repositories are forks. Keep GitHub’s fork attribution visible and describe your contribution precisely. Do not imply original authorship of upstream code. The sixth slot should become your highest-priority portfolio investment because it can demonstrate original analysis, implementation, and documentation.
 
-Use up to six pinned repositories. Build and publish them in this order so the strongest signal appears first.
+## Pinning Checklist
 
-| Priority | Recommended repository | Evidence recruiters should find |
-|---:|---|---|
-| 1 | `devsecops-container-pipeline` | GitHub Actions, Docker build, Trivy gates, test results, artifact flow, rollback notes |
-| 2 | `aws-cloud-security-lab` | VPC diagram, EC2/ALB/ECR design, IAM decisions, logging, cost and teardown guidance |
-| 3 | `soc-investigation-playbooks` | Sanitized Splunk/Wireshark investigations, triage logic, findings, remediation and limitations |
-| 4 | `python-security-automation` | Focused tools with tests, safe defaults, sample output, packaging and responsible-use notes |
-| 5 | `secure-flutter-firebase-app` | App architecture, Firestore rules, authentication flow, threat model and validation |
-| 6 | `security-engineering-notes` | Original technical write-ups, diagrams, lab methodology and references |
+Before pinning a repository, confirm that it:
 
-Pin only repositories that meet a quality threshold. Score each candidate from 0–5 for role relevance, technical depth, security evidence, reproducibility, visual clarity, and maintenance. A pinned project should score at least 22/30 and have no category below 3.
+- Directly supports the cybersecurity, DevSecOps, cloud, or software engineering narrative
+- Has a clear description that states the outcome, core stack, and differentiator
+- Opens with a concise README summary understandable within 20 seconds
+- Shows architecture, trust boundaries, and meaningful engineering decisions
+- Includes working setup, validation, and teardown instructions
+- Provides screenshots, logs, tests, scans, or deployment evidence
+- Clearly distinguishes original work from adapted or forked material
+- Contains no secrets, employer material, private data, or unsupported claims
+- Has a deliberate license and third-party attribution
+- Is maintained well enough that its default branch and instructions remain usable
 
-## Naming, Descriptions & Topics
+## Description Formula
 
-Use short lowercase names with hyphens. Prefer a name that states the system or outcome over a course name, event name, or generic label such as `project-1`.
+Use: **what it delivers + primary technologies + strongest engineering characteristic**.
 
-Write repository descriptions as: **outcome + primary technology + differentiator**.
+Good descriptions are specific and fit on one line. Avoid phrases such as “my project,” “college task,” “best project,” or long tool inventories without an outcome.
 
-Examples:
+### Examples
 
 - Secure container delivery pipeline using GitHub Actions, Docker, and Trivy with policy-based release gates.
-- Reproducible AWS security lab covering segmented networking, least-privilege IAM, logging, and teardown.
+- AWS EKS GitOps lab using Terraform, Argo CD, Helm, Gateway API, and automated image delivery.
 - SOC investigation playbooks with sanitized Splunk queries, packet analysis, and evidence-led remediation.
+- Three-tier web application with documented architecture, authentication boundaries, and automated deployment.
 
-Add only relevant topics. A useful set includes `cybersecurity`, `devsecops`, `aws`, `docker`, `github-actions`, `trivy`, `soc`, `splunk`, `wireshark`, `nmap`, `python`, `flutter`, and `firebase`.
+## Repository Topics
+
+Use only topics that accurately match the repository. Recommended terms include `cybersecurity`, `devsecops`, `aws`, `docker`, `kubernetes`, `terraform`, `github-actions`, `trivy`, `gitops`, `argocd`, `soc`, `splunk`, `wireshark`, `nmap`, `python`, `flutter`, and `firebase`.
 
 ## Definition of Portfolio-Ready
 
-Before pinning a project, confirm that it has:
+Each flagship repository should use the [professional repository README template](./REPOSITORY_README_TEMPLATE.md) and include:
 
-- A clear README built from [the repository template](./REPOSITORY_README_TEMPLATE.md)
-- A current architecture diagram and explicit trust boundaries
-- Setup instructions that work in a clean environment
-- Sanitized example input and expected output
-- Tests and automated checks that match the project risk
-- A threat model, limitations, and responsible-use notes where relevant
-- No secrets, employer material, private data, copied coursework, or unsupported claims
-- A deliberate license and attribution for third-party work
-- Screenshots, logs, scan summaries, or a demo that prove the stated outcome
+1. Problem, audience, and intended outcome
+2. Architecture diagram and data flow
+3. Technology decisions and trade-offs
+4. Threat model and security controls
+5. Reproducible setup and usage
+6. CI/CD workflow and quality gates
+7. Tests, scan results, screenshots, or other evidence
+8. Limitations, cost notes, and teardown guidance
+9. Upstream attribution and a contribution statement
+10. License and responsible-disclosure guidance
 
 ## Commit & Branch Hygiene
 
-Make commits small enough to review and complete enough to explain one change. Use imperative messages and a consistent convention:
+Make each commit reviewable and centered on one coherent change. Use imperative messages such as:
 
 - `feat: add container vulnerability gate`
 - `fix: restrict inbound traffic to the load balancer`
@@ -59,43 +72,28 @@ Make commits small enough to review and complete enough to explain one change. U
 - `test: cover malformed scan input`
 - `chore: update pinned dependency versions`
 
-Create feature branches for material work and merge through pull requests, even on solo projects when the review record adds value. Squash temporary `WIP` commits before merging. Keep experiments on branches or in a clearly labeled lab directory. Never rewrite shared history to make the graph look more active.
+Use feature branches and pull requests for material work. Squash temporary `WIP` commits before merging. Do not manufacture contribution activity through empty commits or trivial automated changes.
 
 ## Contribution Graph
 
-Optimize for evidence, not artificial volume. A steady cadence of meaningful commits is stronger than bursts of empty changes. Good contributions include implementation, tests, documentation, diagrams, issue analysis, pull-request reviews, releases, and reproducible lab reports.
+Prefer a steady record of meaningful implementation, tests, documentation, diagrams, issue analysis, pull-request reviews, and releases. Publish work when it is safe to share, record milestones through tags, and enable private contribution counts if desired.
 
-Keep work visible when it is safe to publish, enable private contribution counts if desired, and record milestones through tagged releases. Do not split one change into many trivial commits or use automation solely to manufacture activity.
-
-## Repository Governance
-
-Use these controls as the project matures:
+## Governance & Licensing
 
 | Control | Purpose |
 |---|---|
 | `LICENSE` | Defines reuse rights and obligations |
-| `SECURITY.md` | Gives a private vulnerability-reporting path and scope |
-| `CONTRIBUTING.md` | Sets branch, test, review, and conduct expectations |
+| `SECURITY.md` | Provides a private vulnerability-reporting path and scope |
+| `CONTRIBUTING.md` | States branch, test, and review expectations |
 | `CODEOWNERS` | Makes review responsibility explicit |
 | Protected default branch | Requires review and successful checks before merge |
 | Dependabot and dependency review | Surfaces vulnerable or stale dependencies |
 | Secret scanning and push protection | Reduces credential exposure |
 | Required CI checks | Enforces tests, linting, builds, and security gates |
-| Tagged releases and changelog | Makes milestones, fixes, and rollback points visible |
+| Tagged releases and changelog | Makes milestones and rollback points visible |
 
-For public demonstrations, MIT is a clear permissive default. Use Apache-2.0 when an explicit patent grant matters. Choose GPL only when reciprocal distribution is intentional. With no license, others generally cannot reuse the code. Do not license or publish material owned by an employer, university, client, or third party without permission.
+MIT is a clear permissive default for original demonstration code. Apache-2.0 adds an explicit patent grant. Choose GPL only when reciprocal distribution is intentional. Do not publish or license employer, university, client, or third-party material without permission.
 
-## Profile Presentation
+## Highest-Impact Next Step
 
-Recommended public metadata:
-
-- **Name:** Ahsan Mushtaq
-- **Bio:** Cybersecurity & Software Engineering | DevSecOps, AWS, SOC workflows, cloud infrastructure, and security automation
-- **Location:** Lahore, Pakistan
-- **Website:** LinkedIn profile or a future portfolio domain
-
-Keep claims precise. Describe NETSOL work as internship exposure and name only tools, outcomes, and workflows that can be discussed publicly. Replace the profile README roadmap entries with direct project links as each repository reaches the portfolio-ready threshold.
-
-## Review Cadence
-
-Review the profile monthly and after every major release. Remove stale pins, fix broken setup steps, refresh screenshots and scan evidence, archive abandoned experiments, and update the profile summary when the target role changes.
+Create one original security repository for the sixth pin. A strong choice is `soc-investigation-playbooks` or `python-security-automation`: include sanitized evidence, a threat model, tests, ethical-use limits, and a short architecture diagram. Once it is portfolio-ready, pin it first and move the GitOps project to second place.
