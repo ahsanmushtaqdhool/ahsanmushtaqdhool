@@ -1,6 +1,6 @@
 # GitHub Portfolio Strategy
 
-> Recruiter-focused organization for cybersecurity, DevSecOps, cloud, and software engineering work.
+> Recruiter-focused organization for DevOps, DevSecOps, cloud, and software engineering work.
 
 ## Recommended Pin Order
 
@@ -11,15 +11,15 @@
 | 3 | [Student–Teacher Three-Tier Application](https://github.com/ahsanmushtaqdhool/Student-Teacher-Portal-Three-Tier-Application) | Full-stack architecture and application engineering | Three-tier student and teacher portal demonstrating clear separation across UI, application, and data layers. |
 | 4 | [Docker Angular Sample](https://github.com/ahsanmushtaqdhool/docker-angular-sample) | Containerization and deployment discipline | Production-oriented Docker setup for reproducible, secure, and efficient Angular application delivery. |
 | 5 | [Python Application Platform Sample](https://github.com/ahsanmushtaqdhool/sample-python) | Python packaging and cloud deployment fundamentals | Lightweight Python deployment template for demonstrating application packaging and platform delivery. |
-| 6 | **Reserve for an original security project** | Original authorship and target-role evidence | Build a SOC investigation, Python security automation, or AWS security lab with reproducible evidence. |
+| 6 | **Reserve for an original DevSecOps project** | Original authorship and target-role evidence | Build a secure CI/CD, infrastructure automation, Kubernetes, or cloud observability project with reproducible evidence. |
 
-All five current project repositories are forks. Keep GitHub’s fork attribution visible and describe your contribution precisely. Do not imply original authorship of upstream code. The sixth slot should become your highest-priority portfolio investment because it can demonstrate original analysis, implementation, and documentation.
+All five current project repositories are forks. Keep GitHub’s fork attribution visible and describe your contribution precisely. Do not imply original authorship of upstream code. The sixth slot should demonstrate original analysis, implementation, automation, and documentation.
 
 ## Pinning Checklist
 
 Before pinning a repository, confirm that it:
 
-- Directly supports the cybersecurity, DevSecOps, cloud, or software engineering narrative
+- Directly supports the DevOps, DevSecOps, cloud, or software engineering narrative
 - Has a clear description that states the outcome, core stack, and differentiator
 - Opens with a concise README summary understandable within 20 seconds
 - Shows architecture, trust boundaries, and meaningful engineering decisions
@@ -34,18 +34,16 @@ Before pinning a repository, confirm that it:
 
 Use: **what it delivers + primary technologies + strongest engineering characteristic**.
 
-Good descriptions are specific and fit on one line. Avoid phrases such as “my project,” “college task,” “best project,” or long tool inventories without an outcome.
-
-### Examples
+Examples:
 
 - Secure container delivery pipeline using GitHub Actions, Docker, and Trivy with policy-based release gates.
 - AWS EKS GitOps lab using Terraform, Argo CD, Helm, Gateway API, and automated image delivery.
-- SOC investigation playbooks with sanitized Splunk queries, packet analysis, and evidence-led remediation.
-- Three-tier web application with documented architecture, authentication boundaries, and automated deployment.
+- Kubernetes observability platform using Prometheus, Grafana, and Alertmanager with actionable service alerts.
+- Three-tier web application with documented architecture, automated tests, and repeatable deployment.
 
 ## Repository Topics
 
-Use only topics that accurately match the repository. Recommended terms include `cybersecurity`, `devsecops`, `aws`, `docker`, `kubernetes`, `terraform`, `github-actions`, `trivy`, `gitops`, `argocd`, `soc`, `splunk`, `wireshark`, `nmap`, `python`, `flutter`, and `firebase`.
+Use only topics that accurately match the repository. Recommended terms include `devops`, `devsecops`, `aws`, `docker`, `kubernetes`, `terraform`, `github-actions`, `trivy`, `gitops`, `argocd`, `helm`, `prometheus`, `grafana`, `python`, `flutter`, and `firebase`.
 
 ## Definition of Portfolio-Ready
 
@@ -54,7 +52,7 @@ Each flagship repository should use the [professional repository README template
 1. Problem, audience, and intended outcome
 2. Architecture diagram and data flow
 3. Technology decisions and trade-offs
-4. Threat model and security controls
+4. DevSecOps controls and trust boundaries
 5. Reproducible setup and usage
 6. CI/CD workflow and quality gates
 7. Tests, scan results, screenshots, or other evidence
@@ -68,15 +66,15 @@ Make each commit reviewable and centered on one coherent change. Use imperative 
 
 - `feat: add container vulnerability gate`
 - `fix: restrict inbound traffic to the load balancer`
-- `docs: document SOC triage decision tree`
-- `test: cover malformed scan input`
+- `docs: document deployment rollback procedure`
+- `test: cover malformed configuration input`
 - `chore: update pinned dependency versions`
 
 Use feature branches and pull requests for material work. Squash temporary `WIP` commits before merging. Do not manufacture contribution activity through empty commits or trivial automated changes.
 
 ## Contribution Graph
 
-Prefer a steady record of meaningful implementation, tests, documentation, diagrams, issue analysis, pull-request reviews, and releases. Publish work when it is safe to share, record milestones through tags, and enable private contribution counts if desired.
+Prefer a steady record of meaningful implementation, tests, documentation, diagrams, issue analysis, pull-request reviews, and releases. Publish work when it is safe to share and record milestones through tags.
 
 ## Governance & Licensing
 
@@ -96,4 +94,4 @@ MIT is a clear permissive default for original demonstration code. Apache-2.0 ad
 
 ## Highest-Impact Next Step
 
-Create one original security repository for the sixth pin. A strong choice is `soc-investigation-playbooks` or `python-security-automation`: include sanitized evidence, a threat model, tests, ethical-use limits, and a short architecture diagram. Once it is portfolio-ready, pin it first and move the GitOps project to second place.
+Create one original DevSecOps repository for the sixth pin. A strong choice is `secure-cicd-pipeline`, `aws-eks-gitops-platform`, or `kubernetes-observability-lab`. Include automated tests, Trivy scan evidence, a clear architecture diagram, secure defaults, rollback guidance, and cost-aware teardown instructions. Once portfolio-ready, pin it first and move the adapted GitOps project to second place.
