@@ -22,101 +22,93 @@ My foundation spans SOC workflows, vulnerability assessment, network and applica
 
 ## Core Expertise
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### Security Operations
-- SOC monitoring workflows
-- Vulnerability assessment
-- Network traffic analysis
-- Security event investigation
-- Threat identification and triage
-- Security documentation
-
-</td>
-<td width="33%" valign="top">
-
-### Cloud & DevSecOps
-- Docker containerization
-- GitHub Actions CI/CD
-- AWS infrastructure
-- Container image scanning
-- Linux administration
-- Secure delivery workflows
-
-</td>
-<td width="33%" valign="top">
-
-### Software Engineering
-- Python automation
-- C++ foundations
-- Flutter application architecture
-- Firebase Firestore
-- Git-based collaboration
-- Maintainable documentation
-
-</td>
-</tr>
-</table>
+| Security Operations | Cloud & DevSecOps | Software Engineering |
+|---|---|---|
+| SOC monitoring workflows | Docker containerization | Python automation |
+| Vulnerability assessment | GitHub Actions CI/CD | C++ foundations |
+| Wireshark, Splunk & Nmap | AWS infrastructure | Flutter architecture |
+| Burp Suite & Trivy | Linux / WSL Ubuntu | Firebase Firestore |
+| Security investigation | Secure delivery workflows | Git-based collaboration |
 
 ## Architecture & Tooling Stack
 
-### Security and analysis
+**Security & Analysis**
 
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-2D5D7B?style=flat-square)
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=trivy&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white) ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white) ![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat-square) ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white) ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aqua&logoColor=white)
 
-### Cloud, infrastructure, and delivery
+**Cloud, Platform & Delivery**
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111)
-![Ubuntu](https://img.shields.io/badge/WSL%20Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-**AWS services:** EC2 · VPC · Application Load Balancer · ECR · Lambda
+AWS services: EC2 · VPC · ALB · ECR · Lambda
 
-### Development
+**Development**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111111)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
-## Featured Work
+## Featured Repositories / Flagship Projects
 
-The portfolio is being organized around projects that demonstrate complete engineering decisions—not isolated code samples. Each public repository will document architecture, threat model, security controls, delivery pipeline, setup, operational trade-offs, and evidence of validation.
+These repositories document practical work across secure delivery, cloud infrastructure, containerization, and full-stack systems. Forked projects are identified clearly and are presented as adapted learning implementations.
 
-| Portfolio track | What it will demonstrate | Primary technologies |
-|---|---|---|
-| **Cloud Security Lab** | Segmented AWS architecture, IAM boundaries, logging, and secure exposure | AWS VPC, EC2, ALB, IAM |
-| **DevSecOps Pipeline** | Automated build, test, image scanning, and deployment gates | GitHub Actions, Docker, Trivy |
-| **SOC Investigation Lab** | Repeatable alert triage, network analysis, and investigation notes | Splunk, Wireshark, Nmap |
-| **Security Automation Toolkit** | Small, documented utilities for repeatable security tasks | Python, Linux |
-| **Secure Mobile Architecture** | Application structure, authentication, and data-access decisions | Flutter, Firebase Firestore |
+### 1. [Production-Grade GitOps Microservices Demo](https://github.com/ahsanmushtaqdhool/Production-Grade_GitOps-Driven_Microservices-Demo)
+
+**AWS · EKS · Terraform · Kubernetes · Argo CD · Helm · GitHub Actions · Trivy**
+
+An adapted GitOps platform lab for deploying a multi-service online boutique to AWS EKS. The repository demonstrates infrastructure provisioning, reusable CI workflows, container scanning, GitOps delivery, Gateway API routing, image automation, and observability. **Forked from the original project and retained with upstream attribution.**
+
+### 2. [Netflix DevSecOps Delivery Pipeline](https://github.com/ahsanmushtaqdhool/DevSecOps-Project-netflix)
+
+**AWS · Docker · CI/CD · Security Scanning · Monitoring · GitOps**
+
+A forked DevSecOps implementation that explores how a Netflix-style application moves from source to a monitored cloud deployment through automated build, security, delivery, and operational workflows.
+
+### 3. [Student–Teacher Three-Tier Portal](https://github.com/ahsanmushtaqdhool/Student-Teacher-Portal-Three-Tier-Application)
+
+**JavaScript · Three-Tier Architecture · Application Delivery**
+
+A forked full-stack reference application for examining presentation, application, and data-layer separation. It provides a useful base for adding authentication, threat modeling, deployment automation, and security testing.
+
+### 4. [Secure Docker Setup for Angular](https://github.com/ahsanmushtaqdhool/docker-angular-sample)
+
+**Angular · Docker · Nginx · Container Hardening**
+
+A forked production-oriented container setup for Angular applications, focused on reproducible builds, efficient delivery, and a stronger foundation for secure front-end deployment.
+
+### 5. [Python Application Platform Sample](https://github.com/ahsanmushtaqdhool/sample-python)
+
+**Python · Cloud Application Platform · Deployment Fundamentals**
+
+A forked Python deployment template used to demonstrate application packaging and platform deployment fundamentals. Best positioned as a supporting lab rather than a primary flagship project.
+
+## Repository Standards
+
+Every portfolio project should include:
+
+- A concise problem statement and measurable outcome
+- An architecture diagram with trust boundaries and data flow
+- Technology choices and their trade-offs
+- Setup, usage, validation, and teardown instructions
+- Threat modeling and security considerations
+- CI/CD stages, quality gates, and scan evidence
+- Explicit attribution for upstream or adapted work
+- A deliberate license and responsible disclosure path
+
+Use my [professional repository README template](./REPOSITORY_README_TEMPLATE.md) and [portfolio strategy](./PORTFOLIO_STRATEGY.md) when preparing new work.
 
 ## Engineering Principles
 
-- Design security controls that developers and operators can actually use.
-- Automate repeatable checks and keep the delivery path observable.
-- Document architecture, assumptions, risks, and trade-offs alongside code.
-- Prefer least privilege, reproducible environments, and auditable changes.
-- Treat deployment, monitoring, and remediation as part of the product.
+- Build security into delivery workflows instead of treating it as a final checkpoint.
+- Prefer repeatable automation, least privilege, clear evidence, and documented trade-offs.
+- Keep portfolio claims precise and separate original engineering from adapted learning work.
+- Design systems that another engineer can understand, validate, operate, and improve.
 
 ## Current Direction
 
-I am strengthening my portfolio through security operations labs, AWS architecture projects, DevSecOps automation, and secure application engineering. I am interested in opportunities where cybersecurity, cloud infrastructure, and software delivery meet.
+I am developing deeper capability in security operations, DevSecOps automation, AWS security architecture, cloud-native delivery, and Python-based security tooling. My next portfolio milestone is an original security project with reproducible tests, scan evidence, and an end-to-end architecture narrative.
 
 ---
 
 <div align="center">
-
-**Open to security, DevSecOps, cloud, and software engineering collaboration.**
 
 [LinkedIn](https://www.linkedin.com/in/ahsan-mushtaq1/) · [GitHub](https://github.com/ahsanmushtaqdhool)
 
