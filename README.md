@@ -2,13 +2,13 @@
 
 # Ahsan Mushtaq
 
-### Cybersecurity · DevSecOps · Cloud Infrastructure · Software Engineering
+### DevOps · DevSecOps · Cloud Infrastructure · Software Engineering
 
-I secure systems, automate delivery, and build dependable software across security operations, cloud infrastructure, and application engineering.
+I build secure delivery pipelines, automate cloud infrastructure, and improve the reliability of modern software systems.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahsan%20Mushtaq-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahsan-mushtaq1/)
 ![Location](https://img.shields.io/badge/Lahore-Pakistan-1F6FEB?style=for-the-badge&logo=googlemaps&logoColor=white)
-![Focus](https://img.shields.io/badge/Focus-Security%20%7C%20Cloud%20%7C%20Automation-24292F?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-DevOps%20%7C%20DevSecOps%20%7C%20Cloud-24292F?style=for-the-badge)
 
 </div>
 
@@ -16,31 +16,31 @@ I secure systems, automate delivery, and build dependable software across securi
 
 ## Professional Summary
 
-Cybersecurity and software engineering professional with hands-on exposure to DevSecOps and information security workflows at **NETSOL Technologies**. I work at the intersection of secure delivery, cloud infrastructure, security operations, and software development—turning security requirements into practical controls, repeatable automation, and maintainable systems.
+DevOps and DevSecOps professional with hands-on exposure to secure delivery and information security workflows at **NETSOL Technologies**. I work across CI/CD automation, container security, cloud infrastructure, observability, and software engineering—turning delivery requirements into practical controls, repeatable automation, and maintainable systems.
 
-My foundation spans SOC workflows, vulnerability assessment, network and application analysis, container security, CI/CD automation, AWS architecture, Linux systems, and Python-based tooling. I am completing a **BS in Software Engineering at the University of Central Punjab** and hold the **Google Professional Cybersecurity Certificate**, with additional practical training through **TryHackMe SOC Level 1**.
+My foundation spans Docker, GitHub Actions, AWS architecture, Linux systems, vulnerability management, Trivy scanning, infrastructure automation, and Python-based tooling. I am completing a **BS in Software Engineering at the University of Central Punjab** and hold the **Google Professional Cybersecurity Certificate**.
 
 ## Core Expertise
 
-| Security Operations | Cloud & DevSecOps | Software Engineering |
+| DevSecOps & Security | Cloud & Platform Engineering | Software Engineering |
 |---|---|---|
-| SOC monitoring workflows | Docker containerization | Python automation |
+| Shift-left security controls | Docker containerization | Python automation |
 | Vulnerability assessment | GitHub Actions CI/CD | C++ foundations |
-| Wireshark, Splunk & Nmap | AWS infrastructure | Flutter architecture |
-| Burp Suite & Trivy | Linux / WSL Ubuntu | Firebase Firestore |
-| Security investigation | Secure delivery workflows | Git-based collaboration |
+| Trivy image scanning | AWS infrastructure | Flutter architecture |
+| Dependency and secret hygiene | Linux / WSL Ubuntu | Firebase Firestore |
+| Secure delivery workflows | Infrastructure automation | Git-based collaboration |
 
 ## Architecture & Tooling Stack
 
-**Security & Analysis**
+**DevSecOps & Delivery**
 
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white) ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white) ![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat-square) ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white) ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aqua&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aqua&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-**Cloud, Platform & Delivery**
+**Cloud & Platform**
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 
-AWS services: EC2 · VPC · ALB · ECR · Lambda
+AWS services: EC2 · VPC · ALB · ECR · Lambda · EKS
 
 **Development**
 
@@ -48,13 +48,13 @@ AWS services: EC2 · VPC · ALB · ECR · Lambda
 
 ## Featured Repositories / Flagship Projects
 
-These repositories document practical work across secure delivery, cloud infrastructure, containerization, and full-stack systems. Forked projects are identified clearly and are presented as adapted learning implementations.
+These repositories document practical work across secure software delivery, cloud infrastructure, containerization, GitOps, and full-stack systems. Forked projects are identified clearly and presented as adapted learning implementations.
 
 ### 1. [Production-Grade GitOps Microservices Demo](https://github.com/ahsanmushtaqdhool/Production-Grade_GitOps-Driven_Microservices-Demo)
 
 **AWS · EKS · Terraform · Kubernetes · Argo CD · Helm · GitHub Actions · Trivy**
 
-An adapted GitOps platform lab for deploying a multi-service online boutique to AWS EKS. The repository demonstrates infrastructure provisioning, reusable CI workflows, container scanning, GitOps delivery, Gateway API routing, image automation, and observability. **Forked from the original project and retained with upstream attribution.**
+An adapted GitOps platform lab for deploying a multi-service online boutique to AWS EKS. It demonstrates infrastructure provisioning, reusable CI workflows, container scanning, GitOps delivery, Gateway API routing, image automation, and observability. **Forked from the original project and retained with upstream attribution.**
 
 ### 2. [Netflix DevSecOps Delivery Pipeline](https://github.com/ahsanmushtaqdhool/DevSecOps-Project-netflix)
 
@@ -66,19 +66,19 @@ A forked DevSecOps implementation that explores how a Netflix-style application 
 
 **JavaScript · Three-Tier Architecture · Application Delivery**
 
-A forked full-stack reference application for examining presentation, application, and data-layer separation. It provides a useful base for adding authentication, threat modeling, deployment automation, and security testing.
+A forked full-stack reference application for examining presentation, application, and data-layer separation, with a foundation for deployment automation and security testing.
 
 ### 4. [Secure Docker Setup for Angular](https://github.com/ahsanmushtaqdhool/docker-angular-sample)
 
 **Angular · Docker · Nginx · Container Hardening**
 
-A forked production-oriented container setup for Angular applications, focused on reproducible builds, efficient delivery, and a stronger foundation for secure front-end deployment.
+A forked production-oriented container setup for Angular applications, focused on reproducible builds, efficient delivery, and secure front-end deployment.
 
 ### 5. [Python Application Platform Sample](https://github.com/ahsanmushtaqdhool/sample-python)
 
 **Python · Cloud Application Platform · Deployment Fundamentals**
 
-A forked Python deployment template used to demonstrate application packaging and platform deployment fundamentals. Best positioned as a supporting lab rather than a primary flagship project.
+A forked Python deployment template used to demonstrate application packaging and platform delivery fundamentals.
 
 ## Repository Standards
 
@@ -88,7 +88,7 @@ Every portfolio project should include:
 - An architecture diagram with trust boundaries and data flow
 - Technology choices and their trade-offs
 - Setup, usage, validation, and teardown instructions
-- Threat modeling and security considerations
+- DevSecOps controls and security considerations
 - CI/CD stages, quality gates, and scan evidence
 - Explicit attribution for upstream or adapted work
 - A deliberate license and responsible disclosure path
@@ -97,14 +97,14 @@ Use my [professional repository README template](./REPOSITORY_README_TEMPLATE.md
 
 ## Engineering Principles
 
-- Build security into delivery workflows instead of treating it as a final checkpoint.
+- Build security controls into delivery workflows from the beginning.
 - Prefer repeatable automation, least privilege, clear evidence, and documented trade-offs.
 - Keep portfolio claims precise and separate original engineering from adapted learning work.
 - Design systems that another engineer can understand, validate, operate, and improve.
 
 ## Current Direction
 
-I am developing deeper capability in security operations, DevSecOps automation, AWS security architecture, cloud-native delivery, and Python-based security tooling. My next portfolio milestone is an original security project with reproducible tests, scan evidence, and an end-to-end architecture narrative.
+I am developing deeper capability in DevOps automation, DevSecOps engineering, AWS architecture, Kubernetes, GitOps, observability, and Python tooling. My next portfolio milestone is an original cloud delivery project with reproducible tests, scan evidence, and an end-to-end architecture narrative.
 
 ---
 
